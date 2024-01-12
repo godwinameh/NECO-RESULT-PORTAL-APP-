@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.icon{
+    height: inherit;
+    background-color: #008000;
+    overflow-y: hidden;
+    /* flex: 1; */
+}
+
+.links{
+    height: inherit;
+    background-color: #008000;
+    flex: 2.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.right{
+    flex: 15;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.icon_1{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(81, 81, 81);
+}
+.icon_2{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #008000;
+}
+.icon_3{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.icon_4{
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.no_1{
+    position: relative;
+    left: 110px;
+}
+
+.no_2{
+    position: relative;
+    left: 100px;
+}
+.no_3{
+    position: relative;
+    left: 80px;
+}
+
+.pp_icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(129, 170, 129);
+}
+
+
+.toggle{
+    width: 30px;
+    background-color: #008000;
+    height: 30px;
+    outline: none;
+    border: 0;
+    opacity: 0.5;
+
+}
+
+.toggle{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+
+.list-item {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #fff;
+}
